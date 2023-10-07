@@ -1,0 +1,89 @@
+/* Style the Body */
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #9e9e9e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* <!-- login page container --> */
+.login-container
+{
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+/* <!-- Google log --> */
+.google-logo
+{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+   
+
+}
+/* <!-- Login-form --> */
+
+/* <!-- Page Title --> */
+.google-login h1
+{
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 40px;
+}
+/* <!-- style for labels --> */
+.google-login label
+{
+    font-weight: bold;
+}
+/* Style for input */
+.google-login input[type="email"]
+{
+    width: 50dvh;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.google-login input[type="password"]
+{
+    width: 50dvh;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+/* button */
+.google-login button
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* <!-- Links for singup & reset password -->  */
+a
+{
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
+/* hover state */
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+
